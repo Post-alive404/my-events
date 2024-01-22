@@ -1,0 +1,26 @@
+<header class="header">
+    <div class="container">
+        <!-- <a href="#home" class="logo-link">
+            <img [src]="logoImgPath" alt="My" class="logo-img">
+        </a> -->
+        <nav class="nav" role="navigation">
+            <ul class="left-align">
+                <li><a href="#" class="logo-link">
+                    <img [src]="logoImgPath" alt="My" class="logo-img">
+                </a></li>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a routerLink="/app-groups-link"
+                    routerLinkActive="active" ariaCurrentWhenActive="page"
+                    >My Groups</a></li>
+                <li><a routerLink="/app-footer-link"
+                    routerLinkActive="active" ariaCurrentWhenActive="page">My Personal</a></li>
+                <li><input type="text" placeholder="Search" class="input-field"></li>
+                <li style="float:right"><a href="#">My Account</a></li>
+            </ul>
+            <!-- <div class="right-align">
+                <input type="text" placeholder="Search" class="input-field">
+                <a style="float:right"class="toolbar-acc"href="#">My Account</a>
+            </div> -->
+        </nav>
+    </div>
+</header>

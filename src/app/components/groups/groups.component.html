@@ -1,0 +1,19 @@
+<div class="group">
+    <img [src]="group.image" [alt]="group.title"  class="groupImg">
+   <h2 class="mb-2 text-md text-center">{{group.title}}</h2>
+
+    <button 
+    class="button_group"
+    [ngClass]="{
+        'button_show':!details,
+        'button_hide':details
+    }"
+    (click)="details = !details"
+    >
+        {{ details ? "Hide" : "Show"}} Details
+    </button>
+    
+    <div *ngIf="details">
+        <p class="group_description">{{group.description}}</p>
+    </div>
+</div>

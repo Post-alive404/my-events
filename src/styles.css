@@ -1,1 +1,167 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+}
+
+/* .container {
+    display: flex;
+    justify-content: space-between; 
+     align-items: center;
+} */
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* .nav {
+    display: flex;
+    align-items: center;
+    flex: 10px; 
+} */
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1b1919;
+}
+
+/* .left-align {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+} */
+
+.nav li {
+    float: left;
+    /* margin-right: 10px; */
+}
+
+.nav a:not(.logo-link) {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: rgb(255, 165, 0);
+
+
+}
+
+.nav a:hover:not(.logo-link) {
+    color: rgb(248, 213, 149);
+    background-color: rgb(51, 51, 51);
+}
+
+
+/* .right-align {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+} */
+
+.input-field {
+    width: 150px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 10px; /* Add some spacing between input and "My Account" */
+}
+.greeting-section {
+
+    padding: 180px;
+    /* width: 100%; */
+    background-color: rgb(51, 51, 51);
+  
+}
+
+.greeting-section span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(255, 165, 0) ;
+    white-space: pre-line;
+
+}
+
+.greeting-section img{
+    /* display: inline-block; */
+    float: right;
+    padding: 0px 42.5% ;
+    width: 180px;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 1.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #e2e8f0
+    
+    
+}
+.titel_group{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: 28px;
+}
+
+.group_description{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.groupImg{
+    /* margin-bottom: 0.5rem; */
+    width: 50%;
+}
+.button_group{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.25rem;
+}
+.button_hide{
+    background-color: rgb(255, 165, 0);
+    color: rgb(51, 51, 51) ;
+}
+
+.button_show{
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 165, 0) ;
+}
+.footer{
+    padding: 50px;
+    background-color: rgb(51, 51, 51);
+}
+.footer p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 165, 0);
+
+}
